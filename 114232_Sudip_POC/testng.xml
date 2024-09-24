@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParameterizedSuite">
+  <test thread-count="5" name="ParameterizedTest">
+ 	<parameter name="browser" value="CHROME"/>
+    <classes>
+      <class name="Zerobank_Sudip_POC.test_Zerobank_Runner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
